@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body{
+    font-family: "Tajawal", sans-serif;
+    background-color: #d3e1f3;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 100px 0 0 0 ;
+}
+
+.card{
+    width: 280px;
+    height: 440px;
+    border-radius: 15px;
+    background-color: rgb(224, 233, 248);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.qr{
+    background-color: rgb(224, 233, 248);
+padding: 12px;
+border-radius: 10px;
+}
+
+.qr img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+p{
+    width: 225px;
+    font-size: 17px;
+    line-height: 1.1;
+    opacity: .7;
+    margin-left: 30px;
+}
